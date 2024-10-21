@@ -217,10 +217,11 @@ git pull origin main --allow-unrelated-histories
     
     - log           -> 로컬저장소 기록을 출력
         - log --oneline -> 한줄로 로컬자장소 기록을 출력
-        - log --oneline -all -> 로컬저장소 모든 기록을 한줄로 출력
-        - log --oneline -graph -all -> 로컬저장소 모든 기록을 그래프로 한줄로 출력
+        - log --oneline --all -> 로컬저장소 모든 기록을 한줄로 출력
+        - log --oneline --graph --all -> 로컬저장소 모든 기록을 그래프로 한줄로 출력
     - status        -> 가장 최근에 원격저장소에 받아온 기록을 기준으로 로컬저장소 버전과 비교 상태 출력
     - commit -am "(메시지 입력)" -> git add + git commit -m 를 합친 명령어
+    - 로그 보기 메뉴에서 나갈 때는 "q" 입력
 
     - checkout (해시번호 7글자) -> 해당 커밋으로 로컬저장소 HEAD를 이동
         - checkout main -> 메인 커밋으로 로컬저장소 HEAD를 이동 (최신 커밋으로 이동)
