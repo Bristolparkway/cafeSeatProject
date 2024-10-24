@@ -1847,6 +1847,48 @@ input, select, textarea {
 					border-right: solid 0.6em transparent;
 				}
 
+		#aside a {
+			position: relative;
+			top: 0;
+			right: 500px;
+			display: grid;
+			color: #ffffff;
+			width: 1em;
+			height: 1em;
+			line-height: 0.9em;
+			font-size: 2.5em;
+			margin: 0 0.25em 0 0.25em;
+			opacity: 0.35;
+			outline: 0;
+			-moz-transition: opacity .25s ease-in-out;
+			-webkit-transition: opacity .25s ease-in-out;
+			-ms-transition: opacity .25s ease-in-out;
+			transition: opacity .25s ease-in-out;
+		}
+
+			#aside a span {
+				display: block;
+				position: absolute;
+				background: #222222;
+				color: #ffffff;
+				top: 2.75em;
+				font-size: 0.3em;
+				height: 2.25em;
+				line-height: 2.25em;
+				left: 50%;
+				opacity: 0;
+				-moz-transition: opacity .25s ease-in-out;
+				-webkit-transition: opacity .25s ease-in-out;
+				-ms-transition: opacity .25s ease-in-out;
+				transition: opacity .25s ease-in-out;
+				width: 5.5em;
+				margin-left: -2.75em;
+			}
+
+			#aside a:hover {
+				opacity: 1.0;
+			}
+			
 			#nav a:hover {
 				opacity: 1.0;
 			}
